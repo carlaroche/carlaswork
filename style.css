@@ -1,0 +1,201 @@
+#banner{
+  text-align: center;
+  background-image:url("file:///Users/carlaroche/Desktop/Travaux%20code%20html/codecv/images/montagnesombre.png");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+}
+#banner h1 {
+  font-size: 80px;
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+  text-align:center;
+}
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #6772e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+
+
+.flex-container {
+  padding: 15px;
+  margin: 15px;
+  list-style: none;
+  border: 1px solid silver;
+  -ms-box-orient: horizontal;
+  display:flex;
+  /*display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;*/
+  display: flex;
+  justify-content: space-around;
+}
+
+.nowrap  { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.wrap    { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}  
+.wrap li {
+  background: gold;
+}
+
+.wrap-reverse         { 
+  -webkit-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}  
+.wrap-reverse li {
+  background: deepskyblue;
+}
+
+.flex-item {
+  background-color: grey;
+  padding: 5px;
+  margin: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.flex-item p {
+
+font-weight:lighter;
+line-height:30px;
+}
+
+.flex-item-2 {
+  background-color: gold;
+  padding: 5px;
+  /*width: 100px;
+  height: 100px;*/
+  margin: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  
+}
+
+.flex-item-2 p {
+
+font-weight:lighter;
+line-height:30px;
+}
+
+.flex-item-3 {
+  background-color: violet;
+  padding: 5px;
+  /*width: 100px;
+  height: 100px;*/
+  margin: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  }
+
+
+  h2{
+  margin-left: 25px;
+}
+
+.Ecole{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+.formation-img img {
+  margin-bottom: 15px;
+  border-radius: 5%;
+  width:100px;
+  height:100px;
+  align-items: left;
+  margin-left: 25px;
+  margin-right: auto;
+}
+
+
+.formation-description{
+  font-size: 30px;
+  align-items: left;
+  padding: 20px;
+  border-radius: 3px;
+  width:30%;
+  margin-left: 35px;
+}
+
+.formation-explication{
+  font-size: 10px;
+  align-items: right;
+  padding: 10px;
+  border-radius: 3px;
+  width:60%;
+  margin-left: 40px;
+}
+
+p{
+font-size: 15px;
+
+}
+
+.intro{
+padding-left: 40px;
+margin-left: 25px;
+}
+
+
+.profil-img img {
+  margin-bottom: 15px;
+  border-radius: 5%;
+  width:100px;
+  height:100px;
+  align-items: left;
+  margin-left: 25px;
+  margin-right: auto;
+}
+
+
+  
